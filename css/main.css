@@ -220,6 +220,99 @@ footer {
   }
 }
 
+/*  Mail Chimp */
+
+section#mailchimp p {
+  text-align: center;
+}
+
+#mc_embed_signup {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#mc_embed_signup label {
+  display: none;
+}
+
+#mc_embed_signup #mce-EMAIL {
+  display: block;
+  color: rgb(99, 82, 163);
+  border: none;
+  width: 100%;
+  height: 46px;
+  margin-bottom: 0;
+  padding: 0;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+  margin: 2em 0 1em;
+  font-family: 'AvenirNext-Regular', 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+  position: absolute;
+  height: 46px;
+  width: 60px;
+  top: 0px;
+  right: 0;
+  border-radius: 40px;
+  background: rgb(255, 255, 255) url('images/icon-arrow.png') center center no-repeat;
+  border:none;
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+  #mc_embed_signup #mc-embedded-subscribe{
+    background: rgb(255, 255, 255) url('images/icon-arrow@2x.png') center center no-repeat;
+    background-size: 50%;
+  }
+}
+
+#mc_embed_signup #mce-responses {
+  display: block;
+  color: #756FF1;
+}
+
+#mc_embed_signup #mc-embedded-subscribe:hover {
+  opacity: .5;
+}
+
+#mc_embed_signup input:focus{
+  outline: none;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  display: block;
+  color: #fff;
+  background: #FF6C6C !important;
+  border-radius: 40px;
+  line-height: 2em;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(99, 82, 163, .6);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(99, 82, 163, .6);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: rgba(99, 82, 163, .6);
+}
+
+:-ms-input-placeholder {
+  color: rgba(99, 82, 163, .6);
+}
+
+
 em {
   font-size: 120%;
 }
